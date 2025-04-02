@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colmeia Criativa</title>
+    <link rel="icon" type="image/jpeg" href="favicon_colmeia.jpg">
+    <style>
+        body {
+            background-color: #fff8e1;
+            color: #3e3e3e;
+            font-family: 'Georgia', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 2em;
+            color: #a57d00;
+        }
+        p {
+            font-size: 1.2em;
+            max-width: 600px;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        a {
+            color: #5c4d00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Animação da abelha */
+        .bee {
+            position: absolute;
+            width: 50px;
+            top: 20%;
+            left: -60px;
+            animation: fly 12s linear infinite;
+            z-index: 0;
+        }
+        @keyframes fly {
+            0% { transform: translateX(0) translateY(0) rotate(0deg); }
+            25% { transform: translateX(25vw) translateY(-10vh) rotate(20deg); }
+            50% { transform: translateX(50vw) translateY(5vh) rotate(-20deg); }
+            75% { transform: translateX(75vw) translateY(-10vh) rotate(10deg); }
+            100% { transform: translateX(100vw) translateY(0) rotate(0deg); }
+        }
+    </style>
+</head>
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bee_icon.svg/1024px-Bee_icon.svg.png" alt="abelha" class="bee">
+    <h1>🌿 A Colmeia Criativa está a ser tecida...</h1>
+    <p>Estamos a criar com calma e intenção o nosso espaço online — um lugar onde a arte, a formação e o cuidado se encontram.</p>
+    <p>Enquanto o nosso site ainda está em construção, podes sempre contactar-nos para formações, parcerias ou projetos com asas.</p>
+    <div class="contact">
+        <p>📧 Email: <a href="mailto:margaridapires@colmeiacriativa.org">margaridapires@colmeiacriativa.org</a></p>
+        <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/a-colmeia-criativa" target="_blank">@a-colmeia-criativa</a></p>
+    </div>
+    <p>🐝 Até já!</p>
+</body>
+</html>
